@@ -1,0 +1,34 @@
+<style>
+
+.nav {
+  background-color: White;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-family: 'montserrat-semi-bold', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
