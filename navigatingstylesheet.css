@@ -1,25 +1,42 @@
 <style>
 
-.nav {
-  background-color: White;
+.nav { /*Top Nav Bar */
+  background-color: rgba(0, 172, 241, 1);
   list-style-type: none;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-.nav li {
+.nav li { /*Top Nav Bar */
   display: inline-block;
   font-family: 'montserrat-semi-bold', sans-serif;
   font-size: 20px;
   padding: 20px;
 }
 
-img {
+img { /*Hero Banner Image on Each Page */
   width: 100%;
   align-items: center;
 }
 
+.content-wrap { /*content styling */
+  width:1300px;
+  margin: 0 auto;
+  font-family: 'montserrat-semi-bold', sans-serif;
+  line-height: 1.2;
+
+}
+
+li:not(:last-child) { /*Adds Space After Bullet List Items */
+  padding-bottom: 15px;
+}
+
+.resizelink {
+  display:inline-block;
+  width: 25%;
+  padding: 20px;
+}
 
 
 
