@@ -50,3 +50,27 @@ li:not(:last-child) { /*Adds Space After Bullet List Items */
     display: inline;
     padding: 20px;
 }
+.video {
+display: block;
+margin: 0% 20% 0% 20%;
+}
+table {
+  border: 2px;
+  border-style: solid;
+  border-color: rgba(241,153,5,1);
+  border-collapse: collapse;
+}
+th {
+  background-color:rgba(0,111,192,1);
+  color: rgba(255,255,255,1);
+  font-size: 1.5em;
+  border-collapse: collapse;
+  padding: 1%;
+}
+td{
+  border: 2px;
+  border-style: solid;
+  border-color: rgba(241,153,5,1);
+  border-collapse: collapse;
+  padding: 1%;
+}
