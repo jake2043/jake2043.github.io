@@ -4,30 +4,42 @@
     <meta charset="utf-8">
     <title>Follow-up & Practice</title>
     <link rel="stylesheet" href="navigatingstylesheet.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!Banner Follow-up & Practice*>
 
-    <img src="Image Assets/difficultbanners/followupbanner.png" alt="Title Banner Follow-up & Practice Files" class="align-center">
+    <img src="Image Assets/difficultbanners/followupbanner.png" alt="Title Banner Follow-up & Practice Files" style="align: center; width:100%">
 
     <! ------------------Nav Bar------------------>
 
-    		<ul class="nav">
-          <li><a href="Home.html">Home</a></li>
-          <li><a href="types of convos.html">Types of Conversations</a></li>
-          <li><a href="preparing.html">Preparing for the Conversation</a></li>
-          <li><a href="conducting.html">Conducting the Conversation</a></li>
-          <li><a href="followup.html">Follow-up & Practice</a></li>
-    		</ul>
-
-    <hr/>
-
-    <! ------------------class for content styling------------------>
-
-    <div class="content-wrap">
+    <div class="topnav" id="myTopnav">
+      <a href="Home.html">Home</a>
+      <a href="types of convos.html">Types of Conversations</a>
+      <a href="preparing.html">Preparing for the Conversation</a>
+      <a href="conducting.html">Conducting the Conversation</a>
+      <a href="followup.html" class="active">Follow-up & Practice</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+  </head>
+  <hr/>
 
   <! ------------------Intro------------------>
+
+  <body div class="w3-container">
+
 <p>After having a difficult conversation, managers should take several important steps to ensure that the conversation is followed up on effectively and that the desired outcomes are achieved. Here are some key actions managers should take:</p><br>
 
 <img src="Image Assets/difficultbanners/followup.png" alt="Info Graphic outlining all steps to take after the conversation:
@@ -41,7 +53,7 @@
   7) Set Mileestones & Check-ins- Be specific, focusing on behaviors and actions, and offer suggestions for further growth.
   8) Evaluate Overall Impact- Are the desired outcomes being achieved? Are there any further steps needed to address ongoing challenges?
   9) Constructive Feedback- Acknowledge their efforts and progress, while also addressing any areas that still need improvement.
-  10) Reflect on Personal Growth- Reflect on your own communication and leadership skills. Think about how you can continue to grow in this space." class="align-center" width="1300px"><br><br><hr>
+  10) Reflect on Personal Growth- Reflect on your own communication and leadership skills. Think about how you can continue to grow in this space." style="align: center; width:100%"><br><br><hr>
 
 <! ------------------Section 2------------------ >
 
@@ -64,7 +76,7 @@
 
 
 
-</div>
+
 
 <p>Jake Herrera <a href="mailto:jake.herrera@quinnipiac.edu">E-Mail Me!</a></p>
   </body>
