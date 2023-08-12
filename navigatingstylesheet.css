@@ -67,6 +67,8 @@ img.align-left { /*Hero Banner Image on Each Page */
   background-color: rgba(65,65,65,1);
   display: flex;
   align-items: stretch;
+  border-radius: 25px;
+  border: 6px solid rgba(0, 172, 241, 1);
 }
 
 .flex-container > div {
@@ -87,12 +89,9 @@ img.align-left { /*Hero Banner Image on Each Page */
   padding: 15% 0%;
 }
 
-body { /*content styling */
-  font-family: 'montserrat-semi-bold, sans-serif';
-  line-height: 1.2;
-  text-align: justify;
-  margin: auto;
+/*body { /*content styling */
 }
+
 
 .h1,.h2,.h3,.h4 { /*responsive text*/
   font-size: 10vw;
@@ -110,27 +109,4 @@ body { /*content styling */
 
 li:not(:last-child) { /*Adds Space After Bullet List Items */
   padding-bottom: 15px;
-}
-
-table {
-  border: 2px;
-  border-style: solid;
-  border-color: rgba(241,153,5,1);
-  border-collapse: collapse;
-}
-
-th {
-  background-color:rgba(0,111,192,1);
-  color: rgba(255,255,255,1);
-  font-size: 1.5em;
-  border-collapse: collapse;
-  padding: 1%;
-}
-
-td{
-  border: 2px;
-  border-style: solid;
-  border-color: rgba(241,153,5,1);
-  border-collapse: collapse;
-  padding: 1%;
 }
